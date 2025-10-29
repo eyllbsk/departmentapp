@@ -1,5 +1,7 @@
 # 📱 Department Application — BIM493 Mobile Programming I
 
+ Developers: EYLÜL BAŞAK ÇAĞLAYAN (28505181482),  KADER TÜLİN SÜRE (10148830858)
+
 A clean, modern Flutter application developed as part of the **BIM493 Mobile Programming I** course project.  
 This app simulates a simple departmental mobile system with user authentication, instructor contact, classroom images, and course details.
 
@@ -55,6 +57,6 @@ flutter pub get
 3️⃣ Run the App
 flutter run
 
- Developers: EYLÜL BAŞAK ÇAĞLAYAN (28505181482),  KADER TÜLİN SÜRE (10148830858)
+
 
 
