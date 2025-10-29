@@ -19,35 +19,6 @@ This app simulates a simple departmental mobile system with user authentication,
 
 ---
 
-## 🧩 Project Structure
-
-lib/
-├── data/
-│ └── sample_data.dart # Static data for instructors, classrooms, courses
-├── models/
-│ ├── instructor.dart
-│ ├── classroom.dart
-│ └── course.dart
-├── pages/
-│ ├── login_page.dart
-│ ├── signup_page.dart
-│ ├── home_page.dart
-│ ├── course_detail_page.dart
-│ └── image_preview_page.dart
-├── services/
-│ ├── auth_service.dart # User storage & authentication
-│ └── theme_service.dart # Dark/Light theme control
-├── tabs/
-│ ├── about_tab.dart # Welcome screen + Settings
-│ ├── people_tab.dart # Instructor list + search + call
-│ ├── infrastructure_tab.dart # Classroom list + image enlarge
-│ └── courses_tab.dart # Courses list + details
-└── main.dart # Entry point
-
-
-
----
-
 ## 🛠️ Technologies Used
 
 - **Flutter 3.x**
