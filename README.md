@@ -1,16 +1,89 @@
-# flutterapplication
+# 📱 Department Application — BIM493 Mobile Programming I
 
-A new Flutter project.
+A clean, modern Flutter application developed as part of the **BIM493 Mobile Programming I** course project.  
+This app simulates a simple departmental mobile system with user authentication, instructor contact, classroom images, and course details.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🌟 Features
 
-A few resources to get you started if this is your first Flutter project:
+- 🔐 **Login & Sign Up** with local storage  
+- 🔄 **Forgot Password** recovery flow  
+- 🌙 **Dark / Light Mode** toggle in Settings  
+- 👋 Personalized **Welcome screen** showing logged-in user  
+- 👨‍🏫 **Instructor directory** with search & CALL support  
+- 🏫 **Infrastructure tab** — classroom list with image enlarge  
+- 📚 **Courses tab** — detailed course info & instructor data  
+- 💾 Local persistence (data remains after app restart)  
+- 🎨 Built with **Material 3** design for a modern UI  
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🧩 Project Structure
+
+lib/
+├── data/
+│ └── sample_data.dart # Static data for instructors, classrooms, courses
+├── models/
+│ ├── instructor.dart
+│ ├── classroom.dart
+│ └── course.dart
+├── pages/
+│ ├── login_page.dart
+│ ├── signup_page.dart
+│ ├── home_page.dart
+│ ├── course_detail_page.dart
+│ └── image_preview_page.dart
+├── services/
+│ ├── auth_service.dart # User storage & authentication
+│ └── theme_service.dart # Dark/Light theme control
+├── tabs/
+│ ├── about_tab.dart # Welcome screen + Settings
+│ ├── people_tab.dart # Instructor list + search + call
+│ ├── infrastructure_tab.dart # Classroom list + image enlarge
+│ └── courses_tab.dart # Courses list + details
+└── main.dart # Entry point
+
+
+
+---
+
+## 🛠️ Technologies Used
+
+- **Flutter 3.x**
+- **Dart 3.x**
+- **Shared Preferences** → local data storage  
+- **URL Launcher** → call instructors via system dialer  
+- **Material 3** → clean and responsive design  
+- **ValueNotifier / ThemeMode** → instant theme switching  
+
+---
+
+## 🧠 How It Works
+
+1. **Sign Up** to create a user account (locally stored).  
+2. **Log In** with your credentials to access the main dashboard.  
+3. Navigate through the tabs:
+   - 👨‍🏫 **People:** Browse or search instructors and call them directly.
+   - 🏫 **Infrastructure:** Tap classrooms to view enlarged images.
+   - 📚 **Courses:** See course code, credits, and instructor info.
+   - ⚙️ **About:** Welcome screen with your username & dark mode toggle.
+4. The app automatically remembers your login for next sessions.
+
+---
+
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the Repository
+bash
+git clone https://github.com/YOUR_USERNAME/flutter-department-app.git
+cd flutter-department-app
+2️⃣ Install Dependencies
+flutter pub get
+3️⃣ Run the App
+flutter run
+
+ Developers: EYLÜL BAŞAK ÇAĞLAYAN (28505181482),  KADER TÜLİN SÜRE (10148830858)
+
+
